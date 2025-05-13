@@ -1,61 +1,4 @@
-// import React from 'react'
-// import "./style.css"
 
-// const Footer = () => {
-//   return (
-
-//     <footer className="custom-footer">
-//     <div className="footer-content">
-//       <div className="footer-left">
-//         <div className='footer-logo'>
-//           <img src="images/logo1.png" />
-//         </div>
-//       </div>
-
-//       <div className="footer-links">
-//         <h4>Quick Links</h4>
-//         <ul>
-//           <li>Home</li>
-//           <li>About</li>
-//           <li>Products</li>
-//         </ul>
-//       </div>
-
-//       <div className="footer-links">
-//         <h4>Resources</h4>
-//         <ul>
-//           <li>Blog</li>
-//           <li>Contact</li>
-//           <li>Privacy Policy</li>
-//           <li>Terms of Services</li>
-//         </ul>
-//       </div>
-
-//       <div className="footer-subscribe">
-//         <p>
-//           Subscribe to our newsletter for updates on <br />
-//           new products and industry insights.
-//         </p>
-//         <div className="subscribe-box">
-//           <input type="email" placeholder="Your Email" />
-//           <button>Subscribe</button>
-//         </div>
-//       </div>
-//     </div>
-
-//     <div className="footer-bottom">
-//       <p>
-//         © 2025 <span className="green">Compony Name</span>. All rights reserved.
-//       </p>
-//     </div>
-//   </footer>
-
-   
-
-//   )
-// }
-
-// export default Footer
 import React, { useEffect, useState } from 'react';
 import "./style.css";
 
@@ -92,9 +35,9 @@ const Footer = () => {
           <div className="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Products</li>
+              <li><a href="/Home">Home</a></li>
+              <li><a href="/About">About</a></li>
+              <li><a href="/Product">Products</a></li>
             </ul>
           </div>
 
@@ -102,7 +45,7 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul>
               <li>Blog</li>
-              <li>Contact</li>
+              <li><a href="/ContactUs">Contact</a></li>
               <li>Privacy Policy</li>
               <li>Terms of Services</li>
             </ul>
