@@ -1,7 +1,7 @@
 
-.Contact-hero {
+/* .Contact-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("C:\react-js\Environment\agriculture\public\images\carbon.jpg");
+       url("agriculture/public/images/carbon.jpg");
       background-size: cover;
       background-position: center;
       color: white;
@@ -10,7 +10,19 @@
       height: 300px;
       position: relative;
       overflow: hidden;
-      }
+      } */
+.Contact-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+       url("../images/carbon.jpg"); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: left;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
 
 
 img {
@@ -93,7 +105,7 @@ img {
 .cta-section {
   padding-left: 50px; 
   padding-right: 50px;
-  background-image: url("C:\react-js\Agriculture\environment\public\images\Map.png");
+  background-image: url("../images/Map.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -169,7 +169,7 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 80px;
-  background-image: url("C:\react-js\Environment\agriculture\public\images\plant.jpg");
+  background-image: url("./images/plant.jpg");
   top: 0px;
   width: 100%;
   min-height: 700px;
@@ -177,7 +177,7 @@ a {
   box-sizing: border-box;
   color: white;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent 20%, transparent 80%, rgba(0, 0, 0, 0.4))
-    url("C:\react-js\Environment\agriculture\public\images\plant.jpg");
+    url("./images/plant.jpg");
   background-size: cover;
   max-width: 100%;
   justify-content: left;
