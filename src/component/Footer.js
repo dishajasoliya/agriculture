@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import "./style.css";
-
+  
 const Footer = () => {
   const [showScroll, setShowScroll] = useState(false);
 
