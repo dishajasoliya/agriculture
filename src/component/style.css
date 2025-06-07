@@ -59,25 +59,13 @@ a {
   color: #2eaf5d;
 }
 
-/* Mobile menu toggle */
-/* .menu-toggle {
-  display: block;
-  cursor: pointer;
-} */
-/* .close-icon {
-  font-size: 2rem;
-  color: #333;
-  cursor: pointer;
-  display: block;
-  padding: 0 5px;
-  display: block;
-} */
+
 
 
 .menu-toggle {
   display: none;
   position: relative;
-  z-index: 1100; /* make sure it's above the menu */
+  z-index: 1100; 
 }
 
 .close-icon {
@@ -322,7 +310,7 @@ a {
   border-radius: 30px;
 }
 
-/* Biochar Section */
+
 .biochar-section {
   background-color: #f3f6f8;
   padding: 4rem 5%;
@@ -498,7 +486,6 @@ a {
 /* Footer */
 .custom-footer {
   background-color: #fff;
-  /* padding: 3rem 5% 1.5rem; */
   padding: 30px;
   font-family: "Segoe UI", sans-serif;
  
