@@ -239,11 +239,12 @@ a {
 }
 
 /* About Section */
+
 .about-container {
   display: flex;
   padding: 4rem 5%;
   background-color: #ffffff;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .about-text {
@@ -300,7 +301,7 @@ a {
   align-items: center;
 }
 
-.about-image img {
+/* .about-image img {
   max-width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 505px;
@@ -308,8 +309,15 @@ a {
   top: 60px;
   left: 835px;
   border-radius: 30px;
-}
+} */
 
+.about-image img {
+   width: 560px;
+  height: 630px;
+  display: block;
+  border-radius: 30px; 
+  /* optional */
+}
 
 .biochar-section {
   background-color: #f3f6f8;

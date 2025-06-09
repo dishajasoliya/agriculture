@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
-// import aboutImg from '../assets/about.jpg'; // replace with your image
-// import carbonImg from './images/carbon.jpg';
+
 
 const AboutSection = () => (
   
